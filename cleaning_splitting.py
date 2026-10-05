@@ -18,3 +18,4 @@ if __name__=="__main__":
     print(da.shape, train.shape, hold.shape)
     print("y all/train/hold", da["y"].mean(), train["y"].mean(), hold["y"].mean())
     print("cols", Xcols)
+a
