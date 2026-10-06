@@ -52,8 +52,8 @@ rp=rndp(yho)
 
 mods={
  "majority":None,
- "logreg":LogisticRegression(max_iter=2000),
- "logreg_bal":LogisticRegression(max_iter=2000,class_weight="balanced"),
+ "logreg":LogisticRegression(max_iter=5001),
+ "logreg_bal":LogisticRegression(max_iter=5001,class_weight="balanced"),
  "rf":RandomForestClassifier(n_estimators=200,random_state=42,class_weight="balanced",n_jobs=-1),
  "gb":GradientBoostingClassifier(random_state=42),
  "lda":LinearDiscriminantAnalysis(),
